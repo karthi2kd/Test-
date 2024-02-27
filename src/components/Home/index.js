@@ -41,7 +41,7 @@ class Home extends Component {
           />
           <h1 className="logo-text">IPL Dashboard</h1>
         </div>
-        <ul>
+        <ul className="team-list-items">
           {isLoading
             ? 'loading....'
             : teamCardData.map(eachItem => (
