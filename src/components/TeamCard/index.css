@@ -1,8 +1,17 @@
 /* Write your CSS here */
 .card-container {
   list-style-type: none;
-  width: 50%;
+  display: flex;
+  align-items: center;
+  border: solid 1px #ffffff;
+  background-color: #ffffff33;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 450px;
+  height: 150px;
 }
+
 .team-logo {
   width: 50px;
 }
@@ -13,11 +22,6 @@
   margin-left: 10px;
 }
 .link-style {
-  display: flex;
-  align-items: center;
-  background-color: #ffffff33;
-  border: solid 1px #ffffff;
   text-decoration: none;
-  height: 85%;
-  border-radius: 12px;
+  cursor: pointer;
 }
