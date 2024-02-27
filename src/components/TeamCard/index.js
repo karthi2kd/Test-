@@ -7,14 +7,12 @@ const TeamCard = props => {
   const {id, name, teamImageUrl} = team
 
   return (
-      <li className="card-container"></li>
-    <Link to={`https://apis.ccbp.in/ipl/${id}`} className="link-style">
-      
-        <img className="team-logo" alt="name" src={teamImageUrl} />
-        <h1 className="team-name">{name}</h1>
-      
+    <Link className="link-style" to={`/team-matches/${id}`}>
+      <li className="card-container">
+        <img className="team-logo" alt={name} src={teamImageUrl} />
+        <p className="team-name">{name}</p>
+      </li>
     </Link>
-    </li>
   )
 }
 
