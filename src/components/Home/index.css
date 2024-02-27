@@ -23,3 +23,8 @@
 ul {
   padding: 0px;
 }
+.team-list-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
